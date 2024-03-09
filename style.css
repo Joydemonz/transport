@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    background-color:  black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #e67417;
+}
+#navbarSupportedContent li {
+    padding: 0rem 1.1rem;
+    float: left;
+}
+
+#navbarSupportedContent li a {
+    color:#e67417;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    word-spacing: .9px;
+}
+
+#navbarSupportedContent li a {
+    position: relative;
+}
+
+#navbarSupportedContent li a::before {
+    content: "";
+    position: absolute;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background-color:#fff;
+}
+
+/* Center Animation */
+#navbarSupportedContent ul li a::before {
+    transform: scale(0, 1);
+    transition: transform .3s ease;
+}
+
+#navbarSupportedContent ul li a:hover::before {
+    transform: scale(1, 1);
+}
+
+#navbarSupportedContentli a:hover {
+    color: #fff;
+    transition: all .3s ease-in-out
+}
+#navbarSupportedContent button{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e96d3f;
+}
+
+#home{
+    width:100%;
+    min-height: 100vh;
+   
+   
+}
+#home{
+    background: url(home2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+ 
+}
+#home h3{
+    color: #e67417;
+    padding-top:100px;
+    font-weight: 300;
+ } 
+ #home h1
+ {
+    
+font-size: 80px;
+color: #8d2929;
+margin-top: 20px;
+
+ }    
+ #home p{
+color: #692c2c;
+font-size: 16px;
+margin-top: 30px;
+line-height: 30px;
+letter-spacing: 1px;
+
+ }
+ #home .btn{
+    margin-top:20px;
+    width:150px;
+    height: 50px;
+    font-size: 16px;
+    letter-spacing: 1px;
+   
+ }
+ #home .btn2{
+    background: transparent;
+    border:1px solid  #e67417;
+    border-radius:8px;
+    color:#fff;
+    margin-left: 10px;
+   
+  }  
+#home .btn2:hover{
+    background:#000000b5;
+
+  }  
+/*about*/
+  #about{
+    background: #000;
+  }
+  #about img{
+    width: 100%;
+  }
+  .section-subtitle{
+    font-size: 25px;
+    font-weight: 800;
+    color: #e67417;
+  }
+ .section-title{
+
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    text-align: justify;
+  }
+  .section-text{
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+  }
+  .about-list{
+    font-size: 20px;
+    font-weight: 400;
+    color: #e67417;
+  }
+  .about-content a
+    {
+        background: transparent;
+        border:1px solid  #e67417;
+        border-radius:8px;
+        color:#fff;
+      
+  }
